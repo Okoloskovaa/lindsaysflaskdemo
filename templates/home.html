@@ -1,5 +1,7 @@
 {% extends "layout.html" %}
 {% block title %}Home{% endblock %}
 {% block content %}
-    <p>This is the home page. It's not exciting yet...</p>
+    <h1 class="h1">Redundant Wikipedia Search Engine</h1>
+    <p class="p">Click <a href="{{ url_for('search') }}" class="search_link">search</a> to slowly search wikipedia.</p>
+    <p class="p">If the page you are looking for or a related page cannot be found, we'll just give you a random page instead.  Good luck!</p>
 {% endblock %}

@@ -11,3 +11,33 @@ body {
 #content {
     margin-left: 3em;
 }
+
+.h1 {
+    color: indianred;
+    padding: 1em;
+}
+
+.p {
+    padding-left: 2em;
+    padding-bottom: 1.5em;
+}
+
+#search_input_box {
+    padding: 2em;
+}
+
+#submit {
+    margin-left: 11em;
+    padding: 0.8em;
+    color: whitesmoke;
+    background-color: cornflowerblue;
+    border-radius: 4px;
+    border-color: cornflowerblue;
+    box-shadow: 1px 1px #999999;
+
+}
+
+.search_link {
+    text-decoration: none;
+    color: indianred;
+}
