@@ -39,6 +39,7 @@ def random():
 
 def get_page(search_term):
     try:
+        search_term = search_term + ' python'
         page = wikipedia.page(search_term)
     except wikipedia.exceptions.PageError:
         # no such page, return a random one
